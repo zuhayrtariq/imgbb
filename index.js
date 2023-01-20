@@ -7,6 +7,7 @@ app.get('/', function (req, res) {
   res.send('Hello World');
 });
 app.post('/data', function (req, res) {
-  res.send(req.body);
+  //console.log(req.body);
+  res.send('I am working!!!!');
 });
 app.listen(3000);
